@@ -1,8 +1,8 @@
 'use strict';
 
-const ViewController = require('slet').ViewController
+const BasicController = require('slet').BasicController
 
-module.exports = class MyController extends ViewController {
+module.exports = class MyController extends BasicController {
   constructor(app, ctx, next) {
     super(app, ctx, next)
   }
@@ -11,9 +11,9 @@ module.exports = class MyController extends ViewController {
     var a = this.query.a
     // this.renderType='view'
     return {
-      tpl: 'index',
-      data: {
-        title: 'ssddssdd a= ' + a
+      a: 'this is a',
+      b: {
+        c: 'ssddssdd a= ' + a
       }
     }
   } 
