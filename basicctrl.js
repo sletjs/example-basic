@@ -8,7 +8,7 @@ module.exports = class MyBasicController extends BasicController {
   }
   
   get() { 
-    var a = this.query.a
+    let a = this.query.a
     // this.renderType='view'
     return {
       a: 'this is a',
