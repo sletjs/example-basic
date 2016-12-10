@@ -36,16 +36,18 @@ module.exports = class MyBasicController extends BasicController {
     super(app, ctx, next)
   }
   
-  get() { 
-    let a = this.query.a
-    // this.renderType='view'
+  get() {
     return {
-      a: 'this is a',
-      b: {
-        c: 'ssddssdd a= ' + a
-      }
+      msg: 'this is a get'
     }
   } 
+
+  post() {
+    return {
+      msg: 'this is a post'
+    }
+  } 
+
 }
 
 ```
@@ -60,4 +62,9 @@ $ node app.js
 
 ## 查验结果
 
-在浏览器中打开 http://127.0.0.1:3000/?a=2
+测试请求，可以使用curl命令
+
+```
+curl http://127.0.0.1:3000/
+curl -d "" http://127.0.0.1:3000
+```

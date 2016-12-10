@@ -7,14 +7,16 @@ module.exports = class MyBasicController extends BasicController {
     super(app, ctx, next)
   }
   
-  get() { 
-    let a = this.query.a
-    // this.renderType='view'
+  get() {
     return {
-      a: 'this is a',
-      b: {
-        c: 'ssddssdd a= ' + a
-      }
+      msg: 'this is a get'
     }
   } 
+
+  post() {
+    return {
+      msg: 'this is a post'
+    }
+  } 
+
 }
