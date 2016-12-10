@@ -29,7 +29,7 @@ app.start(3000)
 
 const BasicController = require('slet').BasicController
 
-module.exports = class MyController extends BasicController {
+module.exports = class MyBasicController extends BasicController {
   constructor(app, ctx, next) {
     super(app, ctx, next)
   }
