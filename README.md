@@ -17,12 +17,12 @@ const app = new Slet({
     debug: true
 });
 
-app.router('/', require('./viewctrl') )  
+app.router('/', require('./basicctrl') )  
 
 app.start(3000)
 ```
 
-## 编写viewctrl.js
+## 编写basicctrl.js
 
 ```
 'use strict';
