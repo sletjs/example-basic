@@ -1,5 +1,7 @@
 # Getting Start
 
+这里是sletjs默认api返回的示例
+
 ## 安装slet模块
 
 ```
