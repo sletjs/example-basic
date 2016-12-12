@@ -2,9 +2,9 @@
 
 这里是sletjs默认api返回的示例
 
-[![NPM version](https://img.shields.io/npm/v/gettingstart.svg?style=flat-square)](https://www.npmjs.com/package/gettingstart)
-[![Build](https://travis-ci.org/sletjs/gettingstart.svg?branch=master)](https://travis-ci.org/sletjs/gettingstart)
-[![codecov.io](https://codecov.io/github/sletjs/gettingstart/coverage.svg?branch=master)](https://codecov.io/github/sletjs/gettingstart?branch=master)
+[![NPM version](https://img.shields.io/npm/v/example-basic.svg?style=flat-square)](https://www.npmjs.com/package/example-basic)
+[![Build](https://travis-ci.org/sletjs/example-basic.svg?branch=master)](https://travis-ci.org/sletjs/example-basic)
+[![codecov.io](https://codecov.io/github/sletjs/example-basic/coverage.svg?branch=master)](https://codecov.io/github/sletjs/example-basic?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## 安装slet模块
