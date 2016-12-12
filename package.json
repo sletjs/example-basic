@@ -1,5 +1,5 @@
 {
-  "name": "gettingstart",
+  "name": "example-basic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sletjs/gettingstart.git"
+    "url": "git+https://github.com/sletjs/example-basic.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sletjs/gettingstart/issues"
+    "url": "https://github.com/sletjs/example-basic/issues"
   },
-  "homepage": "https://github.com/sletjs/gettingstart#readme",
+  "homepage": "https://github.com/sletjs/example-basic#readme",
   "dependencies": {
     "slet": "^1.0.2"
   },
