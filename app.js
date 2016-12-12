@@ -3,9 +3,11 @@
 const Slet = require('slet');
 const app = new Slet({
     root: __dirname,
-    debug: true
+    debug: false
 });
 
-app.router('/', require('./basicctrl') )  
+app.router('/', ('./basicctrl') )  
 
-app.start(3000) 
+// app.start(3000)
+
+module.exports = app
