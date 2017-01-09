@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/sletjs/example-basic#readme",
   "dependencies": {
-    "slet": "^1.0.2"
+    "slet": "^1.4.8"
   },
   "devDependencies": {
     "ava": "^0.17.0",
